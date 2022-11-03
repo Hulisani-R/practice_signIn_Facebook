@@ -34,12 +34,6 @@ function FirebaseProvider({ children }: { children?: ReactNode }) {
     const navigate = useNavigate()
 
     const firebaseConfig = {
-        apiKey: "AIzaSyA73gUDqpbrK0y_b3xWHPMfjZ6qTtrMxkE",
-        authDomain: "practice-signin-facebook.firebaseapp.com",
-        projectId: "practice-signin-facebook",
-        storageBucket: "practice-signin-facebook.appspot.com",
-        messagingSenderId: "672517876931",
-        appId: "1:672517876931:web:580f11f175710543c60676"
     };
 
     const [user, setUser] = useState<User>();
